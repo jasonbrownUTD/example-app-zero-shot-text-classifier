@@ -37,9 +37,9 @@ with c1:
 # The heading will be on the right.
 
 with c2:
-
+ 
     st.caption("")
-    st.title("Zero-Shot Text Classifier")
+    st.title("Jason's Zero-Shot Text Classifier App")
 
 
 # We need to set up session state via st.session_state so that app interactions don't reset the app.
@@ -146,7 +146,7 @@ with MainTab:
 
         labels_from_st_tags = st_tags(
             value=["Transactional", "Informational", "Navigational"],
-            maxtags=3,
+            maxtags=4,
             suggestions=["Transactional", "Informational", "Navigational"],
             label="",
         )
